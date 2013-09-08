@@ -1,0 +1,17 @@
+name: Boundaries
+main: me.cap1tal.boundaries.BoundariesPlugin
+version: 0.1
+author: Cap1tal
+
+permissions:
+   boundaries.admin:
+      default: op
+   boundaries.exempt:
+      default: false
+
+commands:
+   boundaries:
+      aliases: [bound, bounds]
+      permission: boundaries.admin
+      usage: |
+         /boundaries <reload/enable/disable/list/create/rename/move/remove/setmin/setmax> [name] [x] [y] [z]

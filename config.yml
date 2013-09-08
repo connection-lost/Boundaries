@@ -1,0 +1,4 @@
+outOfBoundsMessage: RE-ENTER SAFE ZONE OR PREPARE TO BE TERMINATED
+backInBoundsMessage: Now entering safe zone.
+ticksBeforeDeath: 200
+ticksPerCheck: 20
